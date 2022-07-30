@@ -1,0 +1,145 @@
+/* Generated for Chrome v103.0.0.0 on Windows */
+@font-face {
+     font-family: "Shabnam";
+     src: url("https://cdn.fontcdn.ir/Fonts/Shabnam/a074a415cfe0e4f57e2ede996a73d0e509c0ea194c9678c7b87c65fb977907e7.woff2") format("woff2");
+     font-weight: 100;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Shabnam";
+     src: url("https://cdn.fontcdn.ir/Fonts/Shabnam/87cf5dde711a284c1e25dd414d51a571b7c9aedd91b2b96f9d679869f5d65162.woff2") format("woff2");
+     font-weight: 300;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Shabnam";
+     src: url("https://cdn.fontcdn.ir/Fonts/Shabnam/540d3f4e172bd6b5c70dd06bce57e055ce59270e95ea642b414fe0709faaa085.woff2") format("woff2");
+     font-weight: 400;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Shabnam";
+     src: url("https://cdn.fontcdn.ir/Fonts/Shabnam/fd5931f57e84baad81cc7243cfc1c83e5ac7f5dd17818d917765063544a54441.woff2") format("woff2");
+     font-weight: 500;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Shabnam";
+     src: url("https://cdn.fontcdn.ir/Fonts/Shabnam/1ff187f5320ec4527ebb6a71831b88289a6cb18ca33ac34476b96960f0af7282.woff2") format("woff2");
+     font-weight: 700;
+     font-style: normal;
+}
+
+/* CACHED: 2022-07-28T03:00:02+04:30 */
+/* Powered by FontServer.ir */
+
+
+body {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     font-family: Shabnam;
+
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     -webkit-animation: color-change-3x 4s linear infinite alternate both;
+     animation: color-change-3x 4s linear infinite alternate both;
+
+}
+
+@-webkit-keyframes color-change-3x {
+     0% {
+          background: #19dcea
+     }
+
+     50% {
+          background: #b22cff
+     }
+
+     100% {
+          background: #eaa422
+     }
+}
+
+@keyframes color-change-3x {
+     0% {
+          background: #19dcea
+     }
+
+     50% {
+          background: #b22cff
+     }
+
+     100% {
+          background: #eaa422
+     }
+}
+
+
+
+.wrapper {
+
+     background-color: white;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
+     padding: 2rem;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+
+}
+
+.pashe {
+     border-radius: 100%;
+     object-fit: cover;
+     width: 150px;
+
+
+}
+
+
+
+
+
+.text {
+     text-align: center;
+     color: rgb(157, 98, 211);
+     font-weight: bold;
+     font-size: 20px;
+     margin-block: 30px;
+}
+
+
+.input-text {
+     border: none;
+     padding: 1rem 3rem;
+     border-radius: 20px;
+     font-family: inherit;
+     background-color: #e6e6e6;
+     transition: all 0.6s ease-in-out;
+     outline: none;
+     font-size: 20px;
+     width:300px
+}
+
+.counter {
+     display: flex;
+     flex-direction: row;
+     column-gap: 30px;
+     align-items: center;
+     margin: 20px 0px;
+
+}
+
+
+.count {
+     font-size: 30px;
+     color: blueviolet;
+}
